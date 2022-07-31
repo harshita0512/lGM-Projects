@@ -1,0 +1,127 @@
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     background-color: rgb(62, 62, 62);
+ }
+ 
+ 
+ ul {
+     
+    margin:0%,10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px;
+    background-color: rgba(37, 33, 33, 0.829);
+    padding: 10px;
+    border-radius: 3px;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+ }
+ ul li {
+     cursor: pointer;
+     position: relative;
+
+     padding: 12px 8px 12px 40px;
+     background: rgb(92, 85, 85);
+     font-size: 18px;
+     transition:0.25s;   
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+ }
+
+ ul li:hover {
+     background: #ddd;
+ }
+ 
+ ul li.checked {
+     background: rgb(165, 232, 148);
+     color: rgb(7, 116, 30);
+     text-decoration: line-through;
+ }
+
+ 
+ .close {
+     position: absolute;
+     right: 0;
+     top: 0;
+     padding: 12px 16px 12px 16px;
+ }
+ 
+ .close:hover {
+     background-color: #302d2d;
+     color: white;
+ }
+ 
+ 
+ .header {
+     padding: 30px 40px;
+     color: white;
+     border-radius: 5cm;
+     text-align: center;
+     margin-left: 365px;
+     margin-top: 1cm;
+     margin-right: 365px;
+ }
+ h2
+ {
+    text-align: center;
+    color: white;
+    font-size: 2.5cm;
+}
+ 
+ 
+ .header:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+ 
+ 
+ input {
+     margin: 0;
+     border: 1px;
+     background-color: rgba(37, 33, 33, 0.829);
+     width: 75%;
+     height: 55%;
+     padding: 10px;
+     border-radius: 3px;
+     align-items: center;
+     float: left;
+     font-size: 16px;
+     color: #fff;
+ }
+ input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+ }
+ 
+ 
+ .addBtn 
+ {
+     padding: 10px;
+     appearance: none;
+     outline: #719ECE;
+     border: none;
+     width: 25%;
+     background:none;
+     color: #fff;
+     float: left;
+     text-align: center;
+     font-size: 16px;
+     cursor: pointer;
+     transition: 0.3s;
+ }
+
+ .addBtn:hover 
+ {
+
+     border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+ }
+ 
